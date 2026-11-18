@@ -16,7 +16,6 @@ if __name__ == "__main__":
     qr.add_data(pdf_url)
     qr.make(fit=True)
 
-
     img = qr.make_image(
         fill_color=color
     )
